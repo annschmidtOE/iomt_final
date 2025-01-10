@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5">
+    <title>Pille Tæller</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        img {
+            margin-top: 20px;
+            max-width: 90%;
+            height: auto;
+            border: 2px solid #007bff;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pille Tæller</h1>
+    </header>
+    <main>
+        <p>Her er en oversigt over dit medicinforbrug:</p>
+        <img src="data:image/png;base64,{{ graph }}" alt="Graf over medicinforbrug">
+    </main>
+</body>
+</html>
+
