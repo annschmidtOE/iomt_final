@@ -45,3 +45,4 @@ try:
     client.loop_forever()
 except Exception as e:
     print(f"Der opstod en fejl: {e}")
+#det virker 
